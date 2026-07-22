@@ -1,0 +1,383 @@
+$date
+	Wed Jul 22 08:33:55 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_school_zone_traffic_controller $end
+$var wire 1 ! walk_light $end
+$var wire 3 " side_light [2:0] $end
+$var wire 1 # ped_pending $end
+$var wire 3 $ main_light [2:0] $end
+$var parameter 3 % GREEN $end
+$var parameter 3 & RED $end
+$var parameter 3 ' YELLOW $end
+$var reg 1 ( clk $end
+$var reg 1 ) ped_request $end
+$var reg 1 * reset $end
+$scope module uut $end
+$var wire 1 ( clk $end
+$var wire 1 ) ped_request $end
+$var wire 1 * reset $end
+$var parameter 3 + GREEN $end
+$var parameter 2 , MAIN_GREEN $end
+$var parameter 4 - MAIN_GREEN_NORMAL_TICKS $end
+$var parameter 4 . MAIN_GREEN_PED_TICKS $end
+$var parameter 2 / MAIN_YELLOW $end
+$var parameter 3 0 RED $end
+$var parameter 2 1 SIDE_GREEN $end
+$var parameter 4 2 SIDE_GREEN_NORMAL_TICKS $end
+$var parameter 4 3 SIDE_GREEN_PED_TICKS $end
+$var parameter 2 4 SIDE_YELLOW $end
+$var parameter 3 5 YELLOW $end
+$var parameter 4 6 YELLOW_TICKS $end
+$var reg 4 7 limit [3:0] $end
+$var reg 3 8 main_light [2:0] $end
+$var reg 1 # ped_pending $end
+$var reg 3 9 side_light [2:0] $end
+$var reg 2 : state [1:0] $end
+$var reg 4 ; timer [3:0] $end
+$var reg 1 ! walk_light $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 6
+b10 5
+b11 4
+b110 3
+b100 2
+b10 1
+b100 0
+b1 /
+b11 .
+b110 -
+b0 ,
+b1 +
+b10 '
+b100 &
+b1 %
+$end
+#0
+$dumpvars
+b0 ;
+b0 :
+b100 9
+b1 8
+b110 7
+1*
+0)
+0(
+b1 $
+0#
+b100 "
+0!
+$end
+#5000
+1(
+#10000
+0(
+#12000
+0*
+#15000
+b1 ;
+1(
+#20000
+0(
+#25000
+b10 ;
+1(
+#30000
+0(
+#35000
+b11 ;
+1(
+#40000
+0(
+#45000
+b100 ;
+1(
+#50000
+0(
+#55000
+b101 ;
+1(
+#60000
+0(
+#65000
+b10 7
+b10 $
+b10 8
+b1 :
+b0 ;
+1(
+#70000
+0(
+#75000
+b1 ;
+1(
+#80000
+0(
+#85000
+b100 7
+1!
+b1 "
+b1 9
+b100 $
+b100 8
+b10 :
+b0 ;
+1(
+#90000
+0(
+#95000
+b1 ;
+1(
+#100000
+0(
+#105000
+b10 ;
+1(
+#110000
+0(
+#115000
+b11 ;
+1(
+#120000
+0(
+#125000
+b10 7
+0!
+b10 "
+b10 9
+b11 :
+b0 ;
+1(
+#130000
+0(
+#135000
+b1 ;
+1(
+#140000
+0(
+#142000
+1)
+#145000
+b11 7
+b100 "
+b100 9
+b1 $
+b1 8
+b0 :
+b0 ;
+1#
+1(
+#150000
+0(
+#155000
+b1 ;
+1(
+#160000
+0(
+#162000
+0)
+#165000
+b10 ;
+1(
+#170000
+0(
+#175000
+b10 7
+b10 $
+b10 8
+b1 :
+b0 ;
+1(
+#180000
+0(
+#185000
+b1 ;
+1(
+#190000
+0(
+#195000
+b110 7
+1!
+b1 "
+b1 9
+b100 $
+b100 8
+b10 :
+b0 ;
+1(
+#200000
+0(
+#205000
+b1 ;
+1(
+#210000
+0(
+#215000
+b10 ;
+1(
+#220000
+0(
+#225000
+b11 ;
+1(
+#230000
+0(
+#235000
+b100 ;
+1(
+#240000
+0(
+#245000
+b101 ;
+1(
+#250000
+0(
+#255000
+b10 7
+0!
+b10 "
+b10 9
+0#
+b11 :
+b0 ;
+1(
+#260000
+0(
+#265000
+b1 ;
+1(
+#270000
+0(
+#275000
+b110 7
+b100 "
+b100 9
+b1 $
+b1 8
+b0 :
+b0 ;
+1(
+#280000
+0(
+#282000
+b11 7
+1)
+#285000
+b1 ;
+1#
+1(
+#290000
+0(
+#292000
+0)
+#295000
+b10 ;
+1(
+#300000
+0(
+#305000
+b10 7
+b10 $
+b10 8
+b1 :
+b0 ;
+1(
+#310000
+0(
+#315000
+b1 ;
+1(
+#320000
+0(
+#325000
+b110 7
+1!
+b1 "
+b1 9
+b100 $
+b100 8
+b10 :
+b0 ;
+1(
+#330000
+0(
+#335000
+b1 ;
+1(
+#340000
+0(
+#345000
+b10 ;
+1(
+#350000
+0(
+#355000
+b11 ;
+1(
+#360000
+0(
+#365000
+b100 ;
+1(
+#370000
+0(
+#372000
+0!
+b100 "
+b100 9
+b1 $
+b1 8
+0#
+b0 ;
+b0 :
+1*
+#375000
+1(
+#380000
+0(
+#382000
+0*
+#385000
+b1 ;
+1(
+#390000
+0(
+#395000
+b10 ;
+1(
+#400000
+0(
+#405000
+b11 ;
+1(
+#410000
+0(
+#415000
+b100 ;
+1(
+#420000
+0(
+#425000
+b101 ;
+1(
+#430000
+0(
+#435000
+b10 7
+b10 $
+b10 8
+b1 :
+b0 ;
+1(
+#440000
+0(
+#442000
